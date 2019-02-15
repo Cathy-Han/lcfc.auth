@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lcfc.auth.data", "lcfc.auth.data\lcfc.auth.data.csproj", "{6312C7D4-AA9D-41BD-B7F5-19CDEE150398}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lcfc.auth.Modules", "lcfc.auth.Modules\lcfc.auth.Modules.csproj", "{ACBA74D5-36E0-498B-B817-6E0E6A872B43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lcfc.auth.services.server", "lcfc.auth.services.server\lcfc.auth.services.server.csproj", "{F1EA2D30-EAB8-4C3F-9D80-8D5144BB0A6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lcfc.auth.IModules", "lcfc.auth.IModules\lcfc.auth.IModules.csproj", "{32BD4B8C-9F4C-47CC-AC85-C892E267F52A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6312C7D4-AA9D-41BD-B7F5-19CDEE150398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6312C7D4-AA9D-41BD-B7F5-19CDEE150398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6312C7D4-AA9D-41BD-B7F5-19CDEE150398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6312C7D4-AA9D-41BD-B7F5-19CDEE150398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACBA74D5-36E0-498B-B817-6E0E6A872B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBA74D5-36E0-498B-B817-6E0E6A872B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACBA74D5-36E0-498B-B817-6E0E6A872B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACBA74D5-36E0-498B-B817-6E0E6A872B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EA2D30-EAB8-4C3F-9D80-8D5144BB0A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EA2D30-EAB8-4C3F-9D80-8D5144BB0A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EA2D30-EAB8-4C3F-9D80-8D5144BB0A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EA2D30-EAB8-4C3F-9D80-8D5144BB0A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32BD4B8C-9F4C-47CC-AC85-C892E267F52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BD4B8C-9F4C-47CC-AC85-C892E267F52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BD4B8C-9F4C-47CC-AC85-C892E267F52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BD4B8C-9F4C-47CC-AC85-C892E267F52A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
