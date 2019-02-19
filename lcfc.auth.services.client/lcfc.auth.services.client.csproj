@@ -8,7 +8,7 @@
   <ItemGroup>
     <None Remove="cacheSettings.json" />
     <None Remove="eventBusSettings.json" />
-    <None Remove="NLog.config" />
+    <None Remove="nLog.config" />
     <None Remove="surgingSettings.json" />
   </ItemGroup>
 
@@ -19,7 +19,7 @@
     <Content Include="eventBusSettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="NLog.config">
+    <Content Include="nLog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="surgingSettings.json">
@@ -29,8 +29,11 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
+    <PackageReference Include="Surging.Core.Caching" Version="1.0.0" />
     <PackageReference Include="Surging.Core.Codec.MessagePack" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Codec.ProtoBuffer" Version="1.0.0" />
     <PackageReference Include="Surging.Core.Consul" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.DotNetty" Version="1.0.0" />
     <PackageReference Include="Surging.Core.EventBusKafka" Version="1.0.0" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
   </ItemGroup>

@@ -1,0 +1,8 @@
+﻿{
+  "EventBusConnection": "${EventBusConnection}|localhost",
+
+  "VirtualHost": "/",
+  "BrokerName": "lcfc_auth",
+  "Port": "8111"
+}
+
